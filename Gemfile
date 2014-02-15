@@ -8,6 +8,7 @@ gem "middleman", "~>3.2.2"
 gem "middleman-livereload", "~> 3.1.0"
 
 # gh-pages
+gem 'rake', '~>10.1.1'
 gem 'middleman-gh-pages', '~>0.0.3'
 
 # For faster file watcher updates on Windows:
