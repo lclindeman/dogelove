@@ -3,15 +3,20 @@
 div#doge {
 	margin: auto;
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	background-image: url("../images/doge-regular.png");
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	background-color: hsla(290, 100%, 40%, 1);
-  text-align: center; 
+	text-align: center;
 	font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
 	
